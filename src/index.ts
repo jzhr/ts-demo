@@ -32,7 +32,7 @@ const myPassport: Passport = {
   expiration: {
     month: 1,
     day: 1,
-    year: 2030,
+    year: 2050,
   },
 };
 
@@ -63,10 +63,10 @@ console.log(`Component #2 props: ${component2.props.size}`);
 /* Objects */
 const randomObj: obj = {
   name: 'randomObj',
-  num: 2,
+  num: 3,
   doThing(str) {
     return str;
   },
 };
 
-console.log(randomObj.name);
+console.log(`Random object number: ${randomObj.num}`);
